@@ -1,0 +1,24 @@
+
+
+/*
+general variables
+==========================================================================
+*/
+:root {
+  /* Layout */
+  --mainWidth: 980px;
+
+  /* colors */
+  --vanoliCI: #E5D400;
+  --TextColor: color(white lightness(- 94%));
+  --LinkColor: color(var(--vanoliCI) lightness(- 20%));
+  --activeSelection: color(var(--vanoliCI) lightness(- 10%));
+  --grayDark: color(white lightness(- 80%));
+  --grayLightDark: color(white lightness(- 50%));
+  --grayLight: color(white lightness(- 30%));
+  --TxtOnGrayDark: color(white lightness(- 20%));
+  --lightDark: color(white lightness(- 4%));
+  --lightGrayOnLightDark: color(white lightness(- 10%));
+  --TxtOnLightDark: var(--TextColor);
+  --Confirm: #840000;
+}

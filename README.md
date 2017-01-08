@@ -1,2 +1,2 @@
 # paramatters
-Some ideas for parametric vector design...
+Some ideas for a parametric vector tool.

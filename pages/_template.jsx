@@ -3,9 +3,9 @@ import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
-import '../css/markdown-styles'
+import 'normalize.css/normalize.css';
+import '../css/pad'
 
-import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
   propTypes () {
@@ -18,7 +18,7 @@ module.exports = React.createClass({
       <div>
         <Headroom
           wrapperStyle={{
-            marginBottom: rhythm(1),
+            marginBottom: '1.65rem',
           }}
           style={{
             background: 'lightgray',
@@ -26,9 +26,9 @@ module.exports = React.createClass({
         >
           <Container
             style={{
-              maxWidth: 960,
+              maxWidth: 740,
               paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
+              padding: '1.65rem 1.2375rem',
             }}
           >
             <Link
@@ -38,14 +38,14 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              Gatsby!!!
+              Home
             </Link>
           </Container>
         </Headroom>
         <Container
           style={{
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3/4)}`,
+            maxWidth: 740,
+            padding: '1.65rem 1.2375rem',
             paddingTop: 0,
           }}
         >
