@@ -25,11 +25,40 @@ var md = markdownIt({
   typographer: true,
   highlight,
 })
+
   .use(require('markdown-it-sub'))
   .use(require('markdown-it-footnote'))
   .use(require('markdown-it-deflist'))
   .use(require('markdown-it-abbr'))
   .use(require('markdown-it-attrs'))
+
+
+  .use(require('markdown-it-container'), 'classname', {
+    validate: name => name.trim().length,
+    render: (tokens, idx) => {
+      if (tokens[idx].nesting === 1) {
+        return `<div class="${tokens[idx].info.trim()}">\n`;
+      } else  {
+        return '</div>\n';
+      }
+    }
+  })
+
+  .use(require('markdown-it-anchor'), {
+    level: [1,2],
+    // slugify: string => string,
+    permalink: false,
+    // renderPermalink: (slug, opts, state, permalink) => {},
+    permalinkClass: 'header-anchor',
+    permalinkSymbol: '¶',
+    permalinkBefore: false
+  })
+
+  .use(require('markdown-it-table-of-contents'), {
+  	includeLevel: [2]
+  });
+
+
 
 module.exports = function (content) {
   this.cacheable()
