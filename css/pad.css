@@ -15,7 +15,7 @@ body {
     text-shadow: none;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.85rem;
     color: #444;
     font-weight: 700;
 }
@@ -49,7 +49,7 @@ h5 {
 
 h1, h2, h3, h4, h5 {
     margin-top: 1.2em;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.6em;
 
 }
 
@@ -254,3 +254,152 @@ code, kbd, pre, samp {
     	page-break-inside: avoid;
     }
 }
+
+
+
+
+
+
+
+/* ==========================================================================
+   specific
+   ========================================================================== */
+
+
+.TOC {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+.fig {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fig a:before{
+  content:"";
+}
+
+.fig img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.fig_noOutline img {
+  border: none;
+}
+
+.fig em {
+}
+body {
+  counter-reset: figures heading1 tocHeading1;
+}
+
+h2 {
+  counter-increment: heading1;
+}
+h2:before {
+	content: counter(heading1) '. ';
+}
+
+
+
+.table-of-contents a:before {
+  counter-increment: tocHeading1;
+  content: counter(tocHeading1) '. ';
+}
+
+
+.fig em:before {
+  counter-increment: figures;
+	content: 'Fig. ' counter(figures) ' - ';
+}
+
+.fig_1of3 {
+  width: 33%;
+}
+.fig_1of2 {
+  width: 47%;
+}
+
+
+.grid:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.grid .col_1of2 {
+  width: 47%;
+  float: left;
+  padding-right: 6%;
+}
+
+.grid .col_1of2_last {
+  width: 47%;
+  float: left;
+  padding-right: 0%;
+}
+
+
+
+
+
+
+
+@keyframes flickerAnimation { /* flame pulses */
+  0%   { opacity:0; }
+  1%   { opacity:1; }
+  50%  { opacity:1; }
+  51%  { opacity:0; }
+  100% { opacity:0; }
+}
+
+.overlay .two {
+    opacity: 1;
+    animation: flickerAnimation 5s infinite;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+}
+.overlay .one,
+.overlay .two {
+  background-color: white;
+}
+
+.overlay .one {
+  position: relative;
+}
+
+.overlay .two {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+/*
+
+
+
+
+
+::::: grid
+
+
+:::: col_1of2
+::: fig
+[![status](./sketch/status.png)](./sketch/status.png)
+:::
+::::
+
+:::: col_1of2_last
+text hier
+::::
+
+:::::
+
+*/

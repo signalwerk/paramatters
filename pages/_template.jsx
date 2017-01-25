@@ -47,6 +47,7 @@ module.exports = React.createClass({
             maxWidth: 740,
             padding: '1.65rem 1.2375rem',
             paddingTop: 0,
+            position: 'relative',
           }}
         >
           {this.props.children}
