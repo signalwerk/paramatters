@@ -242,6 +242,7 @@ Variables can be typed as regular numbers or they can be changed by dragging a s
 
 
 ## Next steps
+((not planned for the first beta))
 To further improve the overview of the drawings and to keep order in the process of shaping the different parts of a character there could be done some more improvements.
 
 ### Tags
@@ -252,7 +253,4 @@ Right now the whole concept is just do draw one single glyph. In the future ther
 
 ### Global and local variables
 Variables should have the ability to be local to one glyph or global available to the whole font. 
-
-
-
 
