@@ -260,5 +260,6 @@ Variables should have the ability to be local to one glyph or global available t
 <br>
 <br>
 <br>
+
 #### Source on GitHub
 <small>[Fix my mistakes on GitHub](https://github.com/signalwerk/paramatters/blob/master/pages/ui/index.md)</small>
