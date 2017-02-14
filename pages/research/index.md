@@ -4,7 +4,7 @@ title: Research
 # Research
 
 ## Intro
-
+A short overview on parametric type design. 
 
 
 ## Metafont
@@ -67,6 +67,8 @@ A full parametric graphic design «constructor». The included constraint solver
 *A parametric glyph in motion by Prototypo*
 
 A web-based editor for parametric typefaces. The editor allows to modify but not to create three different parametric typefaces. The .ptf-format (parametric typeface) is is very advanced and allows for complex but free font models.
+
+[prototypo-builder](https://github.com/byte-foundry/prototypo-builder) is a new Project to generate the .ptf-Files in a Browser.
 
 #### Pro
 * hight quality font models
