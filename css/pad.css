@@ -198,9 +198,22 @@ code, kbd, pre, samp {
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
+    
+    
     abbr[title]:after {
         content: " (" attr(title) ")";
+    }
+    
+    
+    /* css 4 selector with $ */
+    /*
+    .fig $a[href]:after > img, .fig a:before > img {
+        content: "";
+    }
+    */
+
+    .fig a[href]:after {
+        content: "";
     }
 
     /*
@@ -246,13 +259,39 @@ code, kbd, pre, samp {
         widows: 3;
     }
 
+     /* not working at all in chrome ... fml */
+
+	h1,
     h2,
     h3 {
         page-break-after: avoid;
+        page-break-inside: avoid;
     }
+
+     /* chrome bug */
+     /* http://stackoverflow.com/questions/1630819/google-chrome-printing-page-breaks */
+    .markdown > div,
+    h1,
+    h2,
+    h3 {
+    	display: block;
+    	position: relative;
+    }
+
     li {
     	page-break-inside: avoid;
     }
+    
+    .headroom-wrapper {
+    	display: none;
+    }
+
+	h1 + p, h2 + p, h3 + p { 
+		page-break-before: avoid;
+	}
+    
+    
+    
 }
 
 
@@ -378,6 +417,37 @@ h2:before {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+
+
+
+
+@media print {
+
+	.overlay:after {
+  		clear: both;
+  		content: " ";
+  		display: table;
+	}
+
+	.overlay .one {
+  		width: 47%;
+  		float: left;
+  		padding-right: 6%;
+	}
+
+	.overlay .two {
+  	width: 47%;
+  		float: left;
+  		padding-right: 0%;
+  		animation: none;
+	}
+
+	.overlay .one,
+	.overlay .two {
+		position: relative;
+	}
 }
 
 

@@ -2,10 +2,16 @@
 title: Research
 ---
 # Research
+<small>CAS Arts & Design in Practice · Signalwerk GmbH – Stefan Huber · 2017</small>
+
+::: TOC
+**Content**
+[[TOC]]
+:::
+
 
 ## Intro
-A short overview on parametric type design. 
-
+A short overview on parametric vector design. 
 
 ## Metafont
 Metafont is a Touring complete programming language with focus on typedesign. The concept is based on strokes and they can be adjusted to not only have letters looking like written with broad edge pen but with a typset character.
@@ -93,14 +99,26 @@ Metapolator is a young project and has a radical domain specific selector/progra
 
 
 ## Programming Libs
-[Paper.js](http://paperjs.org/)  
-[Robofab](http://robofab.org/)  
-[ufo.js](http://robofab.org/)  
 Programming Libs are most of the time spline based drawing abstractions in code. Sometimes they have clearly the focus of typedesing, sometimes they have mor a general outline-based approach.
+
+* [Paper.js](http://paperjs.org/)  
+* [Robofab](http://robofab.org/)  
+* [ufo.js](http://robofab.org/)  
 
 
 ## Other projects
-[laikafont](http://laikafont.ch/)  
-[typeconstructor](http://www.haagseletters.nl/)  
-[fontconstructor.com](http://www.fontconstructor.com/)  
-[Glyphr](http://glyphrstudio.com/)  
+
+* Dynamic typeface – [laikafont Webfont](http://laikafont.ch/)
+* Parametric type design program – [typeconstructor Application](http://www.haagseletters.nl/)
+* Fonts based on components – [fontconstructor.com](http://www.fontconstructor.com/)
+* Online Typedesigner – [Glyphr](http://glyphrstudio.com/)
+* Tests with coded typefaces – [generative typografie](http://generative-typografie.de/) 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+#### Source on GitHub
+<small>[Fix my mistakes on GitHub](https://github.com/signalwerk/paramatters/blob/master/pages/research/index.md)</small>
