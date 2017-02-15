@@ -108,11 +108,11 @@ Programming Libs are most of the time spline based drawing abstractions in code.
 
 ## Other projects
 
-* [Laikafont – dynamic web typeface](http://laikafont.ch/)
-* [Typeconstructor – parametric type design application](http://www.haagseletters.nl/)
-* [Fontconstructor – fonteditor based on components](http://www.fontconstructor.com/)
-* [Glyphr – online typedesigner](http://glyphrstudio.com/)
-* [Tests with coded typefaces](http://generative-typografie.de/) 
+* [Laikafont](http://laikafont.ch/) – dynamic web typeface
+* [Typeconstructor](http://www.haagseletters.nl/) – parametric type design application
+* [Fontconstructor](http://www.fontconstructor.com/) – fonteditor based on components
+* [Glyphr](http://glyphrstudio.com/) – online typedesigner
+* [Generative Typografie](http://generative-typografie.de/) – tests with coded typefaces
 
 <br>
 <br>
