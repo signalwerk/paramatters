@@ -1,5 +1,40 @@
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'MerriweatherSignalwerk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/merriweather-v15/merriweather-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v15/merriweather-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-700 - latin */
+@font-face {
+  font-family: 'MerriweatherSignalwerk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/merriweather-v15/merriweather-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v15/merriweather-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'OpenSansSignalwerk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v13/open-sans-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v13/open-sans-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'OpenSansSignalwerk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v13/open-sans-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v13/open-sans-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSansSignalwerk', sans-serif;
     font-size: 1em;
     line-height: 1.55;
     color: #222;
@@ -16,7 +51,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'MerriweatherSignalwerk', serif;
   font-weight: 700;
 }
 
@@ -198,13 +233,13 @@ code, kbd, pre, samp {
     a[href]:after {
         content: " (" attr(href) ")";
     }
-    
-    
+
+
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-    
-    
+
+
     /* css 4 selector with $ */
     /*
     .fig $a[href]:after > img, .fig a:before > img {
@@ -281,17 +316,17 @@ code, kbd, pre, samp {
     li {
     	page-break-inside: avoid;
     }
-    
+
     .headroom-wrapper {
     	display: none;
     }
 
-	h1 + p, h2 + p, h3 + p { 
+	h1 + p, h2 + p, h3 + p {
 		page-break-before: avoid;
 	}
-    
-    
-    
+
+
+
 }
 
 
