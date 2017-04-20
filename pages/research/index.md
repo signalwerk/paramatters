@@ -104,7 +104,7 @@ Programming Libs are most of the time spline based drawing abstractions in code.
 * [Paper.js](http://paperjs.org/)  
 * [Robofab](http://robofab.org/)  
 * [ufo.js](http://robofab.org/)  
-
+* [fontkit](https://github.com/devongovett/fontkit)
 
 ## Other projects
 
