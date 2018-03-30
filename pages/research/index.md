@@ -106,6 +106,19 @@ Programming Libs are most of the time spline based drawing abstractions in code.
 * [ufo.js](http://robofab.org/)  
 * [fontkit](https://github.com/devongovett/fontkit)
 
+## Type Generator
+In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma at the Zurich University of the Arts a type generator based on a math based model. They won the following awards with it:
+
+* 2007 Red Dot Award, junior prize
+* Föderpreis der ZHdK für die beste Diplomarbeit 2006
+* Schweizer Förderpreis für Deisgn 2007
+* Förderpreis Graubünden 2007
+ 
+
+### Links
+* [Pictures](https://medienarchiv.zhdk.ch/people/d26868c4-8fbf-4f8d-ae12-4f7b0ed1ffce)
+* [Interview](https://de.red-dot.org/2484.html)
+
 ## Other projects
 
 * [Laikafont](http://laikafont.ch/) – dynamic web typeface
