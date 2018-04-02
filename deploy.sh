@@ -9,15 +9,13 @@ abort() {
 [ -z $FTP_SITE ] && abort "FTP_SITE is undefined"
 
 echo "start FTP";
-echo "FTP_USER: $FTP_USER";
-echo "FTP_SITE: $FTP_SITE";
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   echo "  on master branch";
   lftp -u $FTP_USER,$FTP_PASS $FTP_SITE \
    -e 'mirror --verbose -c -e -R public ~ ; exit'
 else
-  echo "no deployment on other branches than master."
+  echo "  no deployment on other branches than master."
 fi
 
 echo "end FTP";
