@@ -19,7 +19,7 @@ if [ "$TRAVIS_BRANCH" == "master" ]; then
   set dns:order inet
   open $FTP_SITE
   user $FTP_USER $FTP_PASS
-  mirror --continue --reverse --delete $LOCALPATH $REMOTEPATH ;
+  mirror --continue --reverse --delete $LOCALPATH $REMOTEPATH
   exit
   "
   echo "  done master branch";
