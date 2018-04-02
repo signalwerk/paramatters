@@ -10,10 +10,19 @@ abort() {
 
 echo "start FTP";
 
+LOCALPATH='./public'
+REMOTEPATH='/'
+
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   echo "  on master branch";
-  lftp -u $FTP_USER,$FTP_PASS $FTP_SITE \
-   -e 'mirror --verbose -c -e -R public ~ ; exit'
+  lftp -f "
+  set dns:order inet
+  open $FTP_SITE
+  user $FTP_USER $FTP_PASS
+  mirror --continue --reverse --delete $LOCALPATH $REMOTEPATH ;
+  exit
+  "
+  echo "  done master branch";
 else
   echo "  no deployment on other branches than master."
 fi
