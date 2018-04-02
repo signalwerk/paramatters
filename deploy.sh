@@ -9,6 +9,8 @@ abort() {
 [ -z $FTP_SITE ] && abort "FTP_SITE is undefined"
 
 echo "start FTP";
+echo "FTP_USER: $FTP_USER";
+echo "FTP_SITE: $FTP_SITE";
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   echo "  on master branch";
