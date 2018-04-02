@@ -16,8 +16,7 @@ REMOTEPATH='/'
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   echo "  on master branch";
   lftp -f "
-  set dns:order inet
-  open $FTP_SITE
+  open ftp://signalwerk.ch
   user $FTP_USER $FTP_PASS
   mirror --continue --reverse --delete $LOCALPATH $REMOTEPATH
   exit
