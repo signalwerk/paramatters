@@ -13,7 +13,7 @@ echo "start FTP";
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   echo "  on master branch";
   lftp -u $FTP_USER,$FTP_PASS $FTP_SITE \
-   -e 'mirror -c -e -R public ~ ; exit'
+   -e 'mirror --verbose -c -e -R public ~ ; exit'
 else
   echo "no deployment on other branches than master."
 fi
