@@ -11,17 +11,13 @@ abort() {
 echo "start FTP";
 
 LOCALPATH='./public'
-REMOTEPATH='/'
+REMOTEPATH='.'
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   echo "  on master branch";
-  lftp -f "
-  open ftp://signalwerk.ch
-  user $FTP_USER $FTP_PASS
-  mirror --continue --reverse --delete $LOCALPATH $REMOTEPATH
-  exit
-  "
-  echo "  done master branch";
+  # lftp -u $FTP_USER,$FTP_PASS $FTP_SITE -e 'mirror --verbose -c -e -R public ~ ; exit'
+
+   lftp -c "set ftps:initial-prot ''; set ftp:ssl-force true; set ftp:ssl-protect-data true; open ftp://$FTP_USER:$FTP_PASS@$FTP_SITE; mirror -eRv $LOCALPATH $REMOTEPATH; quit;"
 else
   echo "  no deployment on other branches than master."
 fi
