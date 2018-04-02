@@ -11,7 +11,7 @@ title: Research
 
 
 ## Intro
-A short overview on parametric vector design. 
+A short overview on parametric vector design.
 
 ## Metafont
 Metafont is a Touring complete programming language with focus on typedesign. The concept is based on strokes and they can be adjusted to not only have letters looking like written with broad edge pen but with a typset character.
@@ -113,6 +113,13 @@ Programming Libs are most of the time spline based drawing abstractions in code.
 * [Fontconstructor](http://www.fontconstructor.com/) – fonteditor based on components
 * [Glyphr](http://glyphrstudio.com/) – online typedesigner
 * [Generative Typografie](http://generative-typografie.de/) – tests with coded typefaces
+* [Polynom SVG-Webeditor](https://github.com/anthonydugois/polynom)
+
+## Algorithms
+* [Hausdorff Distance](https://en.wikipedia.org/wiki/Hausdorff_distance)
+* [Shape context](https://en.wikipedia.org/wiki/Shape_context)
+* [Hausdorff Distance & Shape context in JS](https://github.com/Sirvasile/Typefont)
+* [SVG path bounding box calculator](https://github.com/icons8/svg-path-bounding-box/)
 
 <br>
 <br>
