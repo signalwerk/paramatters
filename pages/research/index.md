@@ -128,6 +128,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 * [Generative Typografie](http://generative-typografie.de/) – tests with coded typefaces
 * [Polynom SVG-Webeditor](https://github.com/anthonydugois/polynom)
 * [MagicBox – Parametric Editor](https://github.com/studioludens/MagicBox)
+* [Lyra – Visualization Design Environment ](https://github.com/vega/lyra)
 
 ## Algorithms
 * [Hausdorff Distance](https://en.wikipedia.org/wiki/Hausdorff_distance)
