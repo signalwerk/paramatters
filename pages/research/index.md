@@ -129,6 +129,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 * [Polynom SVG-Webeditor](https://github.com/anthonydugois/polynom)
 * [MagicBox – Parametric Editor](https://github.com/studioludens/MagicBox)
 * [Lyra – Visualization Design Environment ](https://github.com/vega/lyra)
+* [Letterink – skeleton type design](https://www.letterinkapp.com)
 
 ## Algorithms
 * [Hausdorff Distance](https://en.wikipedia.org/wiki/Hausdorff_distance)
