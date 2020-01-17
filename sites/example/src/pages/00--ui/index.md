@@ -331,4 +331,4 @@ Variables should have the ability to be local to one glyph or global available t
 <br/>
 
 #### Source on GitHub
-Fix my mistakes [on GitHub](https://github.com/signalwerk/paramatters/blob/master/sites/example/src/pages/ui/index.md)
+Fix my mistakes [on GitHub](https://github.com/signalwerk/paramatters/blob/master/sites/example/src/pages/00--ui/index.md)
