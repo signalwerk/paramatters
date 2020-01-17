@@ -6,7 +6,7 @@ path: "root"
 
 CAS Arts & Design in Practice · Signalwerk GmbH – Stefan Huber · 2017
 
-**Content**
+## Content
 
 - [User Interface](/ui/)
 - [Research](/research/)
