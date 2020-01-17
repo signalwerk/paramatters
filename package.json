@@ -8,7 +8,8 @@
   "scripts": {
     "build": "yarn workspace example.blog build",
     "start": "yarn develop",
-    "develop": "yarn workspace example.blog develop"
+    "develop": "yarn workspace example.blog develop",
+    "clear": "rm -rf sites/example/.cache/"
   },
   "workspaces": [
     "themes/*",
