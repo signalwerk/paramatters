@@ -2,3 +2,5 @@
 /sites/example/.cache
 /sites/example/node_modules
 /sites/example/public
+ci/.ssh/id_rsa
+ci/.ssh/secret.key
