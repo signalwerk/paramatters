@@ -1,5 +1,5 @@
 module.exports = {
-  // pathPrefix: `/blog`,
+  pathPrefix: `/`,
 
   __experimentalThemes: [{
     resolve: 'gatsby-theme-signalwerk',
@@ -11,8 +11,8 @@ module.exports = {
   siteMetadata: {
     title: 'Blog',
     author: 'Stefan Huber',
-    authorUrl: 'http://signalwerk.ch/',
+    authorUrl: 'https://signalwerk.ch/',
     description: 'A starter blog ...',
-    siteUrl: "https://signalwerk.github.io/test"
+    siteUrl: "https://paramatters.signalwerk.ch/"
   },
 };
