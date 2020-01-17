@@ -9,10 +9,10 @@ module.exports = {
   }],
 
   siteMetadata: {
-    title: 'Blog',
+    title: 'Paramatters',
     author: 'Stefan Huber',
     authorUrl: 'https://signalwerk.ch/',
-    description: 'A starter blog ...',
+    description: 'Parametric vector design',
     siteUrl: "https://paramatters.signalwerk.ch/"
   },
 };
