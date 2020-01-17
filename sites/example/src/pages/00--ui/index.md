@@ -36,7 +36,7 @@ _Warning: All pictures are scaled. Click on it to see the original file._
 
 <Grid background>
 
-[![Overview](./sketch/Select.png)](./sketch/Select.png)
+![Overview](./sketch/Select.png)
 _Overview of the GUI_
 
 </Grid>
@@ -49,7 +49,7 @@ There are two kind of drawing modes. The outline based editing is well known by 
 <Column start="1" end="7">
 <Box line>
 
-[![status](./sketch/a_anchor.png)](./sketch/a_anchor.png)
+![status](./sketch/a_anchor.png)
 
 </Box>
 
@@ -59,7 +59,7 @@ _Point Editing for contours_
 <Column start="7" end="13">
 <Box line>
 
-[![status](./sketch/a_skelet.png)](./sketch/a_skelet.png)
+![status](./sketch/a_skelet.png)
 
 </Box>
 
@@ -87,7 +87,7 @@ Hold down x-key to see a proof view of the glyph.
 <Grid background>
 <Column start="1" end="9">
 
-[![drawing](./sketch/drawing.png)](./sketch/drawing.png)
+![drawing](./sketch/drawing.png)
 _Art board without a selection_
 
 </Column>
@@ -95,7 +95,7 @@ _Art board without a selection_
 
 <Box backgroundColor="white">
 
-[![Proofview](./sketch/drawing_proof.png)](./sketch/drawing_proof.png)
+![Proofview](./sketch/drawing_proof.png)
 
 </Box>
 
@@ -113,7 +113,7 @@ Always (even if not visible on the sketches) at the very bottom in all context t
 
 <Box maxWidth="60">
 
-[![Palette](./sketch/Palette_Select.png)](./sketch/Palette_Select.png)
+![Palette](./sketch/Palette_Select.png)
 _Palette with a selected point in the art board_
 
 </Box>
@@ -126,7 +126,7 @@ The menu bar offers usually non context-sensitive data.
 
 <Grid>
 
-[![menu](./sketch/menu.png)](./sketch/menu.png)
+![menu](./sketch/menu.png)
 _Menu bar_
 
 </Grid>
@@ -144,7 +144,7 @@ The status bar shows general informations to the current status of the editing.
 
 <Grid>
 
-[![status](./sketch/status.png)](./sketch/status.png)
+![status](./sketch/status.png)
 _Status bar_
 
 </Grid>
@@ -168,7 +168,7 @@ The following colours have an extended colour encoding:
 - Red: current active
 - Orange: variables
 
-[![colours](./sketch/colours.png)](./sketch/colours.png)
+![colours](./sketch/colours.png)
 _color_
 
 ## Glyph Editing
@@ -179,7 +179,7 @@ In the tree view there is also the option to convert a outline path (default) to
 
 <Grid background>
 
-[![Glyph](./sketch/Glyph.png)](./sketch/Glyph.png)
+![Glyph](./sketch/Glyph.png)
 _Properties regarding the glyph_
 
 </Grid>
@@ -198,7 +198,7 @@ If a contour is based on contour points (like in Illustrator) each point on a cu
 
 <Grid background>
 
-[![Point Editing](./sketch/Select.png)](./sketch/Select.png)
+![Point Editing](./sketch/Select.png)
 _Editing a point on a contour_
 
 </Grid>
@@ -219,7 +219,7 @@ _The red line of the skeleton is just to visualise the concept. It will not be p
 
 <Grid background>
 
-[![Brush Editing](./sketch/Stroke.png)](./sketch/Stroke.png)
+![Brush Editing](./sketch/Stroke.png)
 _Editing a point in a stroke_
 
 </Grid>
@@ -239,19 +239,19 @@ The interface has recurring components to build the GUI. The most important comp
 
 ### Input field
 
-[![Input field](./sketch/Input.png)](./sketch/Input.png)
+![Input field](./sketch/Input.png)
 _Numeral input_
 
-[![Input field](./sketch/Input_Calc.png)](./sketch/Input_Calc.png)
+![Input field](./sketch/Input_Calc.png)
 _Calculations_
 
-[![Input field](./sketch/Input_point.png)](./sketch/Input_point.png)
+![Input field](./sketch/Input_point.png)
 _Formula with geometry references_
 
-[![Input field](./sketch/Input_Var.png)](./sketch/Input_Var.png)
+![Input field](./sketch/Input_Var.png)
 _Formula with variable_
 
-[![Input field](./sketch/Input_Edit.png)](./sketch/Input_Edit.png)
+![Input field](./sketch/Input_Edit.png)
 _Editing a formula_
 
 Formulas and numeral inputs are filled into input fields. The coder/designer should get a visual representation what type of the input each part is. This information is primarly colour encoded.
@@ -263,13 +263,13 @@ If the focus is on the input field all other UI elements fade dark. All elements
 <Grid background>
 <Column start="1" end="7">
 
-[![view textfield](./sketch/Select.png)](./sketch/Select.png)
+![view textfield](./sketch/Select.png)
 _Inactive inputfield integratet in the GUI_
 
 </Column>
 <Column start="7" end="13">
 
-[![edit textfield](./sketch/Edit.png)](./sketch/Edit.png)
+![edit textfield](./sketch/Edit.png)
 _Interface when inputfield is active_
 
 </Column>
@@ -277,7 +277,7 @@ _Interface when inputfield is active_
 
 ### Variables
 
-[![Variables](./sketch/Variable.png)](./sketch/Variable.png)
+![Variables](./sketch/Variable.png)
 _Variable with integrated slider_
 
 Variables can be typed as regular numbers or they can be changed by dragging a slider between a predefined minimum and maximum (settings in the triangle-menu).
