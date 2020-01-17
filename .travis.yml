@@ -1,13 +1,13 @@
 language: node_js
-node_js: stable
+node_js: 12
 install:
-  - npm ci
+  - yarn install --frozen-lockfile
 script:
   - bash ./ci/gh-pages.sh
 env:
   global:
   - COMMIT_AUTHOR_EMAIL: "sh@signalwerk.ch"
-  - DEPLOY_DIR: "build"
+  - DEPLOY_DIR: "./sites/example/public"
 branches:
   only:
   - master
