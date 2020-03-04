@@ -161,6 +161,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 - [Lyra – Visualization Design Environment ](https://github.com/vega/lyra)
 - [Letterink – skeleton type design](https://www.letterinkapp.com)
 - [Graphite Description Language](https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont#gdl)
+- [JS.Sketcher](https://github.com/xibyte/jsketcher) – Parametric 2D and 3D modeler 
 
 ## Algorithms
 
