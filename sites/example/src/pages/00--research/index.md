@@ -172,6 +172,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 - [SVG path bounding box calculator](https://github.com/icons8/svg-path-bounding-box/)
 * [Tunni line & Harmonization](https://github.com/simoncozens/SuperTool)
 * [Path simplification](https://github.com/simoncozens/Supertool2-Simplify)
+* [Path balancing](https://github.com/simoncozens/Supertool2-Balance)
 
 <br/>
 <br/>
