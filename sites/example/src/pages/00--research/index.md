@@ -174,6 +174,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 * [Tunni line & Harmonization](https://github.com/simoncozens/SuperTool)
 * [Path simplification](https://github.com/simoncozens/Supertool2-Simplify)
 * [Path balancing](https://github.com/simoncozens/Supertool2-Balance)
+* [Hobby, J. D. (1993). Generating automatically tuned bitmaps from outlines. Journal of the ACM, 40(1), 48–94.](https://sci-hub.se/10.1145/138027.138040)
 
 <br/>
 <br/>
