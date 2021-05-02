@@ -164,6 +164,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 - [Graphite Description Language](https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_devFont#gdl)
 - [JS.Sketcher](https://github.com/xibyte/jsketcher) – Parametric 2D and 3D modeler 
 - [Maker JS](https://maker.js.org/)
+- [Parametric SVG in VisiCut](https://github.com/t-oster/VisiCut/wiki/Parametric-SVG)
 
 ## Algorithms
 
