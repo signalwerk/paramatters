@@ -165,6 +165,7 @@ In 2006 Remo Caminada and Ludovic Varone developed (in Flash) for their Diploma 
 - [JS.Sketcher](https://github.com/xibyte/jsketcher) – Parametric 2D and 3D modeler 
 - [Maker JS](https://maker.js.org/)
 - [Parametric SVG in VisiCut](https://github.com/t-oster/VisiCut/wiki/Parametric-SVG)
+- [SVG-Editor](https://github.com/easylogic/editor)
 
 ## Algorithms
 
